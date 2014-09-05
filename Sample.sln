@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csproj", "{ED5EB007-61E9-4EA6-A29C-41732340E137}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp", "SampleApp\SampleApp.csproj", "{38A79EC6-A410-4BA0-B39D-D4521064D365}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38A79EC6-A410-4BA0-B39D-D4521064D365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38A79EC6-A410-4BA0-B39D-D4521064D365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38A79EC6-A410-4BA0-B39D-D4521064D365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38A79EC6-A410-4BA0-B39D-D4521064D365}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED5EB007-61E9-4EA6-A29C-41732340E137}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED5EB007-61E9-4EA6-A29C-41732340E137}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED5EB007-61E9-4EA6-A29C-41732340E137}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED5EB007-61E9-4EA6-A29C-41732340E137}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = SampleApp\SampleApp.csproj
+	EndGlobalSection
+EndGlobal
