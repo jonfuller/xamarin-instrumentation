@@ -1,0 +1,235 @@
+09-05 09:13:54.661    2591-5176/? D/dalvikvm﹕ GC_FOR_ALLOC freed 6370K, 19% free 37335K/45852K, paused 40ms, total 40ms
+09-05 09:13:56.342  28813-29061/? I/Exchange﹕ Ping expired for account 1
+09-05 09:13:56.352      570-597/? I/ActivityManager﹕ Start proc com.google.android.email for content provider com.google.android.email/com.android.email.provider.EmailProvider: pid=5188 uid=10017 gids={50017, 3003, 1028, 1015}
+09-05 09:13:56.412    5188-5188/? D/ActivityThread﹕ Loading provider com.google.android.email.provider;com.google.android.email.notifier: com.android.email.provider.EmailProvider
+09-05 09:13:56.432    5188-5201/? D/ActivityThread﹕ Loading provider com.google.android.email.provider;com.google.android.email.notifier: com.android.email.provider.EmailProvider
+09-05 09:13:56.462    5188-5192/? D/dalvikvm﹕ GC_CONCURRENT freed 250K, 4% free 9147K/9432K, paused 2ms+2ms, total 29ms
+09-05 09:13:56.623  28813-29061/? W/SSLCertificateSocketFactory﹕ Bypassing SSL security checks at caller's request
+09-05 09:13:56.623    5188-5192/? D/dalvikvm﹕ GC_CONCURRENT freed 299K, 4% free 9322K/9652K, paused 2ms+4ms, total 22ms
+09-05 09:13:56.633    5188-5222/? I/Email﹕ Registering for notifications for account 1
+09-05 09:13:56.643    5188-5222/? I/Email﹕ Observing account changes for notifications
+09-05 09:13:56.743    5188-5192/? D/dalvikvm﹕ GC_CONCURRENT freed 295K, 4% free 9455K/9784K, paused 1ms+4ms, total 19ms
+09-05 09:13:56.753    5188-5224/? I/NotifUtils﹕ Validating Notification, mapSize: 1 getAttention: true ignoreUnobtrusive: false
+09-05 09:13:56.773    5188-5224/? I/NotifUtils﹕ Unseen count doesn't match cursor count.  unseen: 92 cursor count: 20
+09-05 09:13:56.783    5188-5224/? I/NotifUtils﹕ Notifications are disabled for this folder; not notifying
+09-05 09:14:01.327    5231-5231/? D/AndroidRuntime﹕ >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+09-05 09:14:01.327    5231-5231/? D/AndroidRuntime﹕ CheckJNI is OFF
+09-05 09:14:01.337    5231-5231/? D/dalvikvm﹕ Trying to load lib libjavacore.so 0x0
+09-05 09:14:01.347    5231-5231/? D/dalvikvm﹕ Added shared lib libjavacore.so 0x0
+09-05 09:14:01.347    5231-5231/? D/dalvikvm﹕ Trying to load lib libnativehelper.so 0x0
+09-05 09:14:01.347    5231-5231/? D/dalvikvm﹕ Added shared lib libnativehelper.so 0x0
+09-05 09:14:01.347    5231-5231/? D/dalvikvm﹕ No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+09-05 09:14:01.397    5231-5231/? D/dalvikvm﹕ Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+09-05 09:14:01.647    5231-5231/? D/AndroidRuntime﹕ Calling main entry com.android.commands.pm.Pm
+09-05 09:14:01.657      570-586/? I/ActivityManager﹕ Force stopping Sample.Sample appid=10697 user=-1: uninstall pkg
+09-05 09:14:01.657      570-594/? W/PackageManager﹕ Couldn't delete native library directory /data/app-lib/Sample.Sample
+09-05 09:14:01.778      184-184/? D/keystore﹕ calling clear_uid in state: 3
+09-05 09:14:01.778      570-594/? I/ActivityManager﹕ Force stopping Sample.Sample appid=10697 user=0: pkg removed
+09-05 09:14:01.818      570-606/? I/InputReader﹕ Reconfiguring input devices.  changes=0x00000010
+09-05 09:14:01.918      808-946/? I/LatinIME:LogUtils﹕ Dictionary info: dictionary = main:en_us ; version = 47 ; date = 1402373181
+09-05 09:14:01.918      808-946/? I/LatinIME:LogUtils﹕ Dictionary info: dictionary = main:en_us ; version = 47 ; date = 1402373181
+09-05 09:14:01.918    2635-5248/? D/VoicemailCleanupService﹕ Cleaning up data for package: Sample.Sample
+09-05 09:14:01.948    3891-4319/? D/Documents﹕ Used cached roots for com.android.providers.downloads.documents
+09-05 09:14:01.948    3891-4319/? D/Documents﹕ Used cached roots for com.android.externalstorage.documents
+09-05 09:14:01.948    3891-4319/? D/Documents﹕ Used cached roots for com.android.providers.media.documents
+09-05 09:14:01.948    3891-4319/? D/Documents﹕ Used cached roots for com.google.android.apps.docs.storage
+09-05 09:14:01.948    3891-4319/? D/Documents﹕ Update found 7 roots in 130ms
+09-05 09:14:01.958      570-570/? D/BackupManagerService﹕ Received broadcast Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:Sample.Sample flg=0x4000010 (has extras) }
+09-05 09:14:01.968      570-570/? V/BackupManagerService﹕ removePackageParticipantsLocked: uid=10697 #1
+09-05 09:14:01.978      570-587/? W/InputMethodInfo﹕ Duplicated subtype definition found: , voice
+09-05 09:14:01.988    3805-3805/? W/ContextImpl﹕ Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1487 android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2407
+09-05 09:14:01.988      570-598/? I/ActivityManager﹕ Delay finish: com.google.android.googlequicksearchbox/com.google.android.search.core.summons.icing.InternalIcingCorporaProvider$CorporaChangedReceiver
+09-05 09:14:01.998      570-912/? I/ActivityManager﹕ Resuming delayed broadcast
+09-05 09:14:01.998   26345-5255/? I/IcingCorporaProvider﹕ Updating corpora: APPS=Sample.Sample, CONTACTS=MAYBE
+09-05 09:14:02.018     487-5256/? D/PackageBroadcastService﹕ Received broadcast action=android.intent.action.PACKAGE_REMOVED and uri=Sample.Sample
+09-05 09:14:02.048     487-5262/? I/PeopleContactsSync﹕ CP2 sync disabled
+09-05 09:14:02.048      487-715/? I/Icing﹕ doRemovePackageData Sample.Sample
+09-05 09:14:02.048      570-908/? I/ActivityManager﹕ Delay finish: com.google.android.apps.plus/.service.PackagesMediaMonitor
+09-05 09:14:02.048      570-895/? I/ActivityManager﹕ Resuming delayed broadcast
+09-05 09:14:02.158      570-594/? D/dalvikvm﹕ GC_EXPLICIT freed 3000K, 29% free 26822K/37480K, paused 7ms+18ms, total 253ms
+09-05 09:14:02.158      570-895/? D/dalvikvm﹕ WAIT_FOR_CONCURRENT_GC blocked 98ms
+09-05 09:14:02.178    5231-5231/? D/AndroidRuntime﹕ Shutting down VM
+09-05 09:14:02.178    5231-5238/? D/jdwp﹕ Got wake-up signal, bailing out of select
+09-05 09:14:02.178    5231-5238/? D/dalvikvm﹕ Debugger has detached; object registry had 1 entries
+09-05 09:14:02.308      570-895/? D/dalvikvm﹕ GC_EXPLICIT freed 983K, 28% free 27054K/37480K, paused 4ms+19ms, total 151ms
+09-05 09:14:02.358   26345-5255/? I/IcingCorporaProvider﹕ UpdateCorporaTask done [took 350 ms] updated apps [took 350 ms]
+09-05 09:14:02.678    5266-5266/? D/AndroidRuntime﹕ >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+09-05 09:14:02.678    5266-5266/? D/AndroidRuntime﹕ CheckJNI is OFF
+09-05 09:14:02.698    5266-5266/? D/dalvikvm﹕ Trying to load lib libjavacore.so 0x0
+09-05 09:14:02.698    5266-5266/? D/dalvikvm﹕ Added shared lib libjavacore.so 0x0
+09-05 09:14:02.698    5266-5266/? D/dalvikvm﹕ Trying to load lib libnativehelper.so 0x0
+09-05 09:14:02.698    5266-5266/? D/dalvikvm﹕ Added shared lib libnativehelper.so 0x0
+09-05 09:14:02.698    5266-5266/? D/dalvikvm﹕ No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+09-05 09:14:02.738    5266-5266/? D/dalvikvm﹕ Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+09-05 09:14:02.959    5266-5266/? D/AndroidRuntime﹕ Calling main entry com.android.commands.pm.Pm
+09-05 09:14:02.969      570-586/? I/ActivityManager﹕ Force stopping SampleApp.SampleApp appid=10698 user=-1: uninstall pkg
+09-05 09:14:02.969      570-594/? W/PackageManager﹕ Couldn't delete native library directory /data/app-lib/SampleApp.SampleApp
+09-05 09:14:03.089      184-184/? D/keystore﹕ calling clear_uid in state: 3
+09-05 09:14:03.089      570-594/? I/ActivityManager﹕ Force stopping SampleApp.SampleApp appid=10698 user=0: pkg removed
+09-05 09:14:03.119      570-606/? I/InputReader﹕ Reconfiguring input devices.  changes=0x00000010
+09-05 09:14:03.139    3891-4363/? D/Documents﹕ Used cached roots for com.android.providers.downloads.documents
+09-05 09:14:03.139    3891-4363/? D/Documents﹕ Used cached roots for com.android.externalstorage.documents
+09-05 09:14:03.139    3891-4363/? D/Documents﹕ Used cached roots for com.android.providers.media.documents
+09-05 09:14:03.139    3891-4363/? D/Documents﹕ Used cached roots for com.google.android.apps.docs.storage
+09-05 09:14:03.139    3891-4363/? D/Documents﹕ Update found 7 roots in 6ms
+09-05 09:14:03.169      808-946/? I/LatinIME:LogUtils﹕ Dictionary info: dictionary = main:en_us ; version = 47 ; date = 1402373181
+09-05 09:14:03.169      808-946/? I/LatinIME:LogUtils﹕ Dictionary info: dictionary = main:en_us ; version = 47 ; date = 1402373181
+09-05 09:14:03.179    2635-5280/? D/VoicemailCleanupService﹕ Cleaning up data for package: SampleApp.SampleApp
+09-05 09:14:03.319      570-594/? D/dalvikvm﹕ GC_EXPLICIT freed 4960K, 29% free 26621K/37480K, paused 5ms+11ms, total 173ms
+09-05 09:14:03.319      570-613/? D/dalvikvm﹕ WAIT_FOR_CONCURRENT_GC blocked 132ms
+09-05 09:14:03.319      570-909/? D/dalvikvm﹕ WAIT_FOR_CONCURRENT_GC blocked 133ms
+09-05 09:14:03.319      570-570/? D/dalvikvm﹕ WAIT_FOR_CONCURRENT_GC blocked 132ms
+09-05 09:14:03.319      570-598/? D/dalvikvm﹕ WAIT_FOR_CONCURRENT_GC blocked 129ms
+09-05 09:14:03.319      570-581/? D/dalvikvm﹕ WAIT_FOR_CONCURRENT_GC blocked 138ms
+09-05 09:14:03.329      570-587/? D/dalvikvm﹕ WAIT_FOR_CONCURRENT_GC blocked 138ms
+09-05 09:14:03.349      866-868/? D/dalvikvm﹕ GC_CONCURRENT freed 462K, 6% free 9316K/9816K, paused 9ms+1ms, total 21ms
+09-05 09:14:03.359      487-715/? I/Icing﹕ Indexing 6C46D6F1BD31F5E5829D2556C57DFE833D9A2D50 from com.google.android.googlequicksearchbox
+09-05 09:14:03.359    5266-5266/? D/AndroidRuntime﹕ Shutting down VM
+09-05 09:14:03.359    5266-5273/? D/jdwp﹕ Got wake-up signal, bailing out of select
+09-05 09:14:03.359    5266-5273/? D/dalvikvm﹕ Debugger has detached; object registry had 1 entries
+09-05 09:14:03.379    3805-3805/? W/ContextImpl﹕ Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1487 android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2407
+09-05 09:14:03.389     570-8583/? I/ActivityManager﹕ Delay finish: com.google.android.googlequicksearchbox/com.google.android.search.core.summons.icing.InternalIcingCorporaProvider$CorporaChangedReceiver
+09-05 09:14:03.389      570-598/? I/ActivityManager﹕ Resuming delayed broadcast
+09-05 09:14:03.399   26345-5289/? I/IcingCorporaProvider﹕ Updating corpora: APPS=SampleApp.SampleApp, CONTACTS=MAYBE
+09-05 09:14:03.409    570-19031/? I/ActivityManager﹕ Delay finish: com.google.android.gms/.drive.api.DriveSystemBroadcastReceiver
+09-05 09:14:03.409     487-5290/? D/PackageBroadcastService﹕ Received broadcast action=android.intent.action.PACKAGE_REMOVED and uri=SampleApp.SampleApp
+09-05 09:14:03.409      570-895/? I/ActivityManager﹕ Resuming delayed broadcast
+09-05 09:14:03.419     570-8582/? I/ActivityManager﹕ Delay finish: com.google.android.apps.plus/.service.PackagesMediaMonitor
+09-05 09:14:03.429      570-580/? I/ActivityManager﹕ Resuming delayed broadcast
+09-05 09:14:03.449     487-5298/? I/PeopleContactsSync﹕ CP2 sync disabled
+09-05 09:14:03.469      570-587/? W/InputMethodInfo﹕ Duplicated subtype definition found: , voice
+09-05 09:14:03.489      570-570/? D/BackupManagerService﹕ Received broadcast Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:SampleApp.SampleApp flg=0x4000010 (has extras) }
+09-05 09:14:03.489      570-570/? V/BackupManagerService﹕ removePackageParticipantsLocked: uid=10698 #1
+09-05 09:14:03.559      487-715/? I/Icing﹕ doRemovePackageData SampleApp.SampleApp
+09-05 09:14:03.579   26345-5289/? I/IcingCorporaProvider﹕ UpdateCorporaTask done [took 188 ms] updated apps [took 188 ms]
+09-05 09:14:03.629      487-715/? I/Icing﹕ Indexing done 6C46D6F1BD31F5E5829D2556C57DFE833D9A2D50
+09-05 09:14:03.920      570-572/? D/dalvikvm﹕ GC_CONCURRENT freed 4365K, 29% free 26672K/37480K, paused 3ms+9ms, total 111ms
+09-05 09:14:03.920      570-613/? D/dalvikvm﹕ WAIT_FOR_CONCURRENT_GC blocked 94ms
+09-05 09:14:08.594    5310-5310/? D/AndroidRuntime﹕ >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+09-05 09:14:08.594    5310-5310/? D/AndroidRuntime﹕ CheckJNI is OFF
+09-05 09:14:08.614    5310-5310/? D/dalvikvm﹕ Trying to load lib libjavacore.so 0x0
+09-05 09:14:08.614    5310-5310/? D/dalvikvm﹕ Added shared lib libjavacore.so 0x0
+09-05 09:14:08.624    5310-5310/? D/dalvikvm﹕ Trying to load lib libnativehelper.so 0x0
+09-05 09:14:08.624    5310-5310/? D/dalvikvm﹕ Added shared lib libnativehelper.so 0x0
+09-05 09:14:08.624    5310-5310/? D/dalvikvm﹕ No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+09-05 09:14:08.654    5310-5310/? D/dalvikvm﹕ Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+09-05 09:14:08.874    5310-5310/? D/AndroidRuntime﹕ Calling main entry com.android.commands.pm.Pm
+09-05 09:14:08.884      570-594/? W/ActivityManager﹕ No content provider found for permission revoke: file:///data/local/tmp/Sample.Sample-Signed.apk
+09-05 09:14:09.165      570-594/? W/ActivityManager﹕ No content provider found for permission revoke: file:///data/local/tmp/Sample.Sample-Signed.apk
+09-05 09:14:09.165      570-594/? I/PackageManager﹕ Copying native libraries to /data/app-lib/vmdl-378105071
+09-05 09:14:13.139      570-594/? I/PackageManager﹕ Running dexopt on: Sample.Sample
+09-05 09:14:13.329    5324-5324/? D/dalvikvm﹕ DexOpt: load 21ms, verify+opt 117ms, 763092 bytes
+09-05 09:14:13.359      570-586/? I/ActivityManager﹕ Force stopping Sample.Sample appid=10699 user=-1: update pkg
+09-05 09:14:13.579      570-606/? I/InputReader﹕ Reconfiguring input devices.  changes=0x00000010
+09-05 09:14:13.619    3891-3904/? D/Documents﹕ Used cached roots for com.android.providers.downloads.documents
+09-05 09:14:13.629    3891-3904/? D/Documents﹕ Used cached roots for com.android.externalstorage.documents
+09-05 09:14:13.629    3891-3904/? D/Documents﹕ Used cached roots for com.android.providers.media.documents
+09-05 09:14:13.639    3891-3904/? D/Documents﹕ Used cached roots for com.google.android.apps.docs.storage
+09-05 09:14:13.649    3891-3904/? D/Documents﹕ Update found 7 roots in 31ms
+09-05 09:14:13.669   26345-5335/? I/IcingCorporaProvider﹕ Updating corpora: APPS=Sample.Sample, CONTACTS=MAYBE
+09-05 09:14:13.679     487-5337/? D/PackageBroadcastService﹕ Received broadcast action=android.intent.action.PACKAGE_ADDED and uri=Sample.Sample
+09-05 09:14:13.689     487-5339/? I/PeopleContactsSync﹕ CP2 sync disabled
+09-05 09:14:13.749      882-886/? D/dalvikvm﹕ GC_CONCURRENT freed 4419K, 29% free 20888K/29288K, paused 1ms+3ms, total 39ms
+09-05 09:14:13.769      570-570/? D/BackupManagerService﹕ Received broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:Sample.Sample flg=0x4000010 (has extras) }
+09-05 09:14:13.769      570-570/? V/BackupManagerService﹕ addPackageParticipantsLocked: #1
+09-05 09:14:13.779      570-587/? W/InputMethodInfo﹕ Duplicated subtype definition found: , voice
+09-05 09:14:13.839   26345-5335/? I/IcingCorporaProvider﹕ UpdateCorporaTask done [took 171 ms] updated apps [took 171 ms]
+09-05 09:14:13.889      570-594/? D/dalvikvm﹕ GC_EXPLICIT freed 4083K, 29% free 26837K/37480K, paused 11ms+14ms, total 257ms
+09-05 09:14:13.889    5310-5310/? D/AndroidRuntime﹕ Shutting down VM
+09-05 09:14:13.889    5310-5317/? D/jdwp﹕ Got wake-up signal, bailing out of select
+09-05 09:14:13.889    5310-5317/? D/dalvikvm﹕ Debugger has detached; object registry had 1 entries
+09-05 09:14:14.840      487-715/? I/Icing﹕ Indexing 6C46D6F1BD31F5E5829D2556C57DFE833D9A2D50 from com.google.android.googlequicksearchbox
+09-05 09:14:14.880      487-491/? D/dalvikvm﹕ GC_CONCURRENT freed 730K, 17% free 11565K/13820K, paused 2ms+5ms, total 33ms
+09-05 09:14:14.880      487-495/? W/SQLiteConnectionPool﹕ A SQLiteConnection object for database '/data/data/com.google.android.gms/databases/metrics.db' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 09:14:14.880      487-495/? W/SQLiteConnectionPool﹕ A SQLiteConnection object for database '/data/data/com.google.android.gms/databases/help_responses.db' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 09:14:14.880      487-495/? W/SQLiteConnectionPool﹕ A SQLiteConnection object for database '/data/data/com.google.android.gms/databases/history_query.db' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 09:14:14.890      487-495/? W/SQLiteConnectionPool﹕ A SQLiteConnection object for database '/data/data/com.google.android.gms/databases/metrics.db' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 09:14:14.890      487-495/? W/SQLiteConnectionPool﹕ A SQLiteConnection object for database '/data/data/com.google.android.gms/databases/help_responses.db' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 09:14:14.890      487-495/? W/SQLiteConnectionPool﹕ A SQLiteConnection object for database '/data/data/com.google.android.gms/databases/history_query.db' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+09-05 09:14:15.611      487-715/? I/Icing﹕ Indexing done 6C46D6F1BD31F5E5829D2556C57DFE833D9A2D50
+09-05 09:14:16.021    2591-2595/? D/dalvikvm﹕ GC_CONCURRENT freed 7944K, 19% free 37462K/45852K, paused 2ms+9ms, total 50ms
+09-05 09:14:19.795    5356-5356/? D/AndroidRuntime﹕ >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+09-05 09:14:19.795    5356-5356/? D/AndroidRuntime﹕ CheckJNI is OFF
+09-05 09:14:19.805    5356-5356/? D/dalvikvm﹕ Trying to load lib libjavacore.so 0x0
+09-05 09:14:19.815    5356-5356/? D/dalvikvm﹕ Added shared lib libjavacore.so 0x0
+09-05 09:14:19.815    5356-5356/? D/dalvikvm﹕ Trying to load lib libnativehelper.so 0x0
+09-05 09:14:19.815    5356-5356/? D/dalvikvm﹕ Added shared lib libnativehelper.so 0x0
+09-05 09:14:19.815    5356-5356/? D/dalvikvm﹕ No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+09-05 09:14:19.845    5356-5356/? D/dalvikvm﹕ Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+09-05 09:14:20.075    5356-5356/? D/AndroidRuntime﹕ Calling main entry com.android.commands.pm.Pm
+09-05 09:14:20.085      570-594/? W/ActivityManager﹕ No content provider found for permission revoke: file:///data/local/tmp/SampleApp.SampleApp-Signed.apk
+09-05 09:14:20.366      570-594/? W/ActivityManager﹕ No content provider found for permission revoke: file:///data/local/tmp/SampleApp.SampleApp-Signed.apk
+09-05 09:14:20.366      570-594/? I/PackageManager﹕ Copying native libraries to /data/app-lib/vmdl-1218933686
+09-05 09:14:24.520      570-594/? I/PackageManager﹕ Running dexopt on: SampleApp.SampleApp
+09-05 09:14:24.680    5368-5368/? D/dalvikvm﹕ DexOpt: load 21ms, verify+opt 96ms, 741764 bytes
+09-05 09:14:24.740      570-586/? I/ActivityManager﹕ Force stopping SampleApp.SampleApp appid=10700 user=-1: update pkg
+09-05 09:14:24.990      570-606/? I/InputReader﹕ Reconfiguring input devices.  changes=0x00000010
+09-05 09:14:25.000    3891-3946/? D/Documents﹕ Used cached roots for com.android.providers.downloads.documents
+09-05 09:14:25.020    3891-3946/? D/Documents﹕ Used cached roots for com.android.externalstorage.documents
+09-05 09:14:25.020    3891-3946/? D/Documents﹕ Used cached roots for com.android.providers.media.documents
+09-05 09:14:25.040      570-908/? I/ActivityManager﹕ Delay finish: com.android.musicfx/.Compatibility$Receiver
+09-05 09:14:25.070      866-868/? D/dalvikvm﹕ GC_CONCURRENT freed 459K, 6% free 9318K/9816K, paused 1ms+2ms, total 20ms
+09-05 09:14:25.070    3891-3946/? D/Documents﹕ Used cached roots for com.google.android.apps.docs.storage
+09-05 09:14:25.070    3891-3946/? D/Documents﹕ Update found 7 roots in 82ms
+09-05 09:14:25.080      570-790/? I/ActivityManager﹕ Resuming delayed broadcast
+09-05 09:14:25.090    3789-3793/? D/dalvikvm﹕ GC_CONCURRENT freed 361K, 5% free 9026K/9420K, paused 2ms+9ms, total 59ms
+09-05 09:14:25.090   26345-5378/? I/IcingCorporaProvider﹕ Updating corpora: APPS=SampleApp.SampleApp, CONTACTS=MAYBE
+09-05 09:14:25.100     487-5379/? D/PackageBroadcastService﹕ Received broadcast action=android.intent.action.PACKAGE_ADDED and uri=SampleApp.SampleApp
+09-05 09:14:25.120     487-5382/? I/PeopleContactsSync﹕ CP2 sync disabled
+09-05 09:14:25.150      570-587/? W/InputMethodInfo﹕ Duplicated subtype definition found: , voice
+09-05 09:14:25.170      570-570/? D/BackupManagerService﹕ Received broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:SampleApp.SampleApp flg=0x4000010 (has extras) }
+09-05 09:14:25.170      570-570/? V/BackupManagerService﹕ addPackageParticipantsLocked: #1
+09-05 09:14:25.220   26345-5378/? I/IcingCorporaProvider﹕ UpdateCorporaTask done [took 130 ms] updated apps [took 130 ms]
+09-05 09:14:25.290      570-594/? D/dalvikvm﹕ GC_EXPLICIT freed 1765K, 29% free 26925K/37480K, paused 3ms+16ms, total 310ms
+09-05 09:14:25.290    5356-5356/? D/AndroidRuntime﹕ Shutting down VM
+09-05 09:14:25.290    5356-5363/? D/jdwp﹕ Got wake-up signal, bailing out of select
+09-05 09:14:25.290    5356-5363/? D/dalvikvm﹕ Debugger has detached; object registry had 1 entries
+09-05 09:14:25.891    5391-5391/? D/AndroidRuntime﹕ >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+09-05 09:14:25.891    5391-5391/? D/AndroidRuntime﹕ CheckJNI is OFF
+09-05 09:14:25.911    5391-5391/? D/dalvikvm﹕ Trying to load lib libjavacore.so 0x0
+09-05 09:14:25.911    5391-5391/? D/dalvikvm﹕ Added shared lib libjavacore.so 0x0
+09-05 09:14:25.911    5391-5391/? D/dalvikvm﹕ Trying to load lib libnativehelper.so 0x0
+09-05 09:14:25.911    5391-5391/? D/dalvikvm﹕ Added shared lib libnativehelper.so 0x0
+09-05 09:14:25.911    5391-5391/? D/dalvikvm﹕ No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+09-05 09:14:25.961    5391-5391/? D/dalvikvm﹕ Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+09-05 09:14:26.181    5391-5391/? D/AndroidRuntime﹕ Calling main entry com.android.commands.am.Am
+09-05 09:14:26.201     570-8582/? I/ActivityManager﹕ Force stopping SampleApp.SampleApp appid=10700 user=0: start instr
+09-05 09:14:26.201    5402-5402/? D/dalvikvm﹕ Late-enabling CheckJNI
+09-05 09:14:26.211     570-8582/? I/ActivityManager﹕ Start proc SampleApp.SampleApp for added application SampleApp.SampleApp: pid=5402 uid=10700 gids={50700, 3003}
+09-05 09:14:26.221    5402-5408/? E/jdwp﹕ Failed sending reply to debugger: Broken pipe
+09-05 09:14:26.221    5402-5408/? D/dalvikvm﹕ Debugger has detached; object registry had 1 entries
+09-05 09:14:26.221      487-715/? I/Icing﹕ Indexing 6C46D6F1BD31F5E5829D2556C57DFE833D9A2D50 from com.google.android.googlequicksearchbox
+09-05 09:14:26.251    5402-5402/? D/dalvikvm﹕ Trying to load lib /data/app-lib/Sample.Sample-1/libmonodroid.so 0x41f00db8
+09-05 09:14:26.251    5402-5402/? D/dalvikvm﹕ Added shared lib /data/app-lib/Sample.Sample-1/libmonodroid.so 0x41f00db8
+09-05 09:14:26.261    5402-5402/? V/Mono﹕ Saving old signal handler for signal 8.
+09-05 09:14:26.261    5402-5402/? V/Mono﹕ Saving old signal handler for signal 4.
+09-05 09:14:26.261    5402-5402/? V/Mono﹕ Saving old signal handler for signal 7.
+09-05 09:14:26.261    5402-5402/? V/Mono﹕ Saving old signal handler for signal 6.
+09-05 09:14:26.261    5402-5402/? V/Mono﹕ Saving old signal handler for signal 11.
+09-05 09:14:26.261    5402-5402/? W/libc﹕ WARNING: generic atexit() called from legacy shared library
+09-05 09:14:26.261    5402-5402/? D/Mono﹕ Image addref mscorlib[0x750067f8] -> mscorlib.dll[0x76ede010]: 1
+09-05 09:14:26.261    5402-5402/? D/Mono﹕ AOT module 'mscorlib.dll.so' not found: dlopen failed: library "/data/data/SampleApp.SampleApp/lib/mscorlib.dll.so" not found
+09-05 09:14:26.291    5402-5402/? D/Mono﹕ Assembly mscorlib[0x750067f8] added to domain RootDomain, ref_count=1
+09-05 09:14:26.291    5402-5402/? D/Mono﹕ Assembly Loader probing location: '/Users/builder/data/lanes/1131/62e09eb0/source/monodroid/builds/install/mono-armv7/lib/Sample.dll'.
+09-05 09:14:26.301    5402-5402/? D/Mono﹕ Image addref SampleApp[0x76fafbe8] -> SampleApp.dll[0x76fa8630]: 1
+09-05 09:14:26.301    5402-5402/? D/Mono﹕ Assembly SampleApp[0x76fafbe8] added to domain RootDomain, ref_count=1
+09-05 09:14:26.301    5402-5402/? D/Mono﹕ AOT module 'SampleApp.dll.so' not found: dlopen failed: library "/data/data/SampleApp.SampleApp/lib/SampleApp.dll.so" not found
+09-05 09:14:26.301    5402-5402/? D/Mono﹕ Assembly Loader probing location: '/Users/builder/data/lanes/1131/62e09eb0/source/monodroid/builds/install/mono-armv7/lib/Xamarin.Android.NUnitLite.dll'.
+09-05 09:14:26.301    5402-5402/? W/monodroid-gc﹕ GREF GC Threshold: 46800
+09-05 09:14:26.301    5402-5402/? D/Mono﹕ Image addref Mono.Android[0x76fa83c8] -> Mono.Android.dll[0x76fa3638]: 1
+09-05 09:14:26.301    5402-5402/? D/Mono﹕ Assembly Mono.Android[0x76fa83c8] added to domain RootDomain, ref_count=1
+09-05 09:14:26.301    5402-5402/? D/Mono﹕ AOT module 'Mono.Android.dll.so' not found: dlopen failed: library "/data/data/SampleApp.SampleApp/lib/Mono.Android.dll.so" not found
+09-05 09:14:26.311    5402-5402/? D/Mono﹕ Assembly Ref addref Mono.Android[0x76fa83c8] -> mscorlib[0x750067f8]: 2
+09-05 09:14:26.331    5402-5402/? D/Mono﹕ Assembly Loader probing location: 'Sample'.
+09-05 09:14:26.331    5402-5402/? A/monodroid-assembly﹕ Could not load assembly 'Sample' during startup registration.
+09-05 09:14:26.331    5402-5402/? A/monodroid-assembly﹕ This might be due to an invalid debug instalation.
+09-05 09:14:26.331    5402-5402/? A/monodroid-assembly﹕ A common cause is to 'adb install' the app directly instead of doing from the IDE.
+09-05 09:14:26.342      487-715/? I/Icing﹕ Indexing done 6C46D6F1BD31F5E5829D2556C57DFE833D9A2D50
+09-05 09:14:26.352     570-8583/? I/ActivityManager﹕ Process SampleApp.SampleApp (pid 5402) has died.
+09-05 09:14:26.352    5391-5391/? D/AndroidRuntime﹕ Shutting down VM
+09-05 09:14:26.352     570-8583/? W/ActivityManager﹕ Crash of app SampleApp.SampleApp running instrumentation ComponentInfo{Sample.Sample/sample.TestRunner}
+09-05 09:14:26.362    5391-5398/? D/jdwp﹕ Got wake-up signal, bailing out of select
+09-05 09:14:26.362    5391-5398/? D/dalvikvm﹕ Debugger has detached; object registry had 1 entries
+09-05 09:14:26.412      179-179/? D/Zygote﹕ Process 5402 exited cleanly (13)
+09-05 09:14:26.572     570-8583/? I/ActivityManager﹕ Force stopping SampleApp.SampleApp appid=10700 user=0: finished inst
+
