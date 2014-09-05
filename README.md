@@ -13,7 +13,7 @@ The contents of this project are:
 
 When I add the `TargetPackage` property to the `Instrumentation` attribute on my `TestRunner` class, this is what causes the crash.  However, if I leave the `TargetPackage` off, the crash doesn't occur, but the `Instrumentation.TargetContext` property (at test run time) is the context of the test, and not of the target application.
 
-I've included a logcat of the output that happens as a result of running the included build script.
+I've included a logcat of the output that happens as a result of running the included build script.  (Lines 224-226 show the crash)
 
 The output I get on my terminal is:
 
