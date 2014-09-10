@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="Sample">
+      <HintPath>..\Sample\bin\Debug\Sample.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
