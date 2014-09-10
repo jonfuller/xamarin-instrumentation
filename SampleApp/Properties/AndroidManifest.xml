@@ -2,13 +2,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="SampleApp.SampleApp">
     <uses-sdk />
     <application android:label="SampleApp">
-        <provider
-            android:name="com.roche.acconnect.acconnect.ApplicationProvider"
-            android:authorities="com.roche.acconnect.applicationprovider"
-            android:initOrder="100" />
-        <provider
-            android:name="com.roche.acconnect.datadevice.LogbookProvider"
-            android:authorities="com.roche.acconnect.datadevice.provider"
-            android:exported="false" />
     </application>
 </manifest>
